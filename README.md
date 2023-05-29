@@ -30,6 +30,9 @@ I have modified my more simpler single day weather app into a 5 day weather appl
  - `base_url = f"http://api.openweathermap.org/data/2.5/weather?q=`{city}`&appid=`{api_key}`"`<br>
 <br>
 
+### In reference to how I handled the city not found error:
+`if data["cod"] == "404":`<br>
+&emsp;&emsp;`print(f"Weather information not found for '{city}'. Please try again.")`<br>
 <img src="images/screenshot3.JPG" alt="screenshot3" width="700" />
 <br>
 
