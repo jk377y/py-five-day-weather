@@ -42,8 +42,11 @@ When prompted:<br>
 <br>
 
 ### In reference to how I handled the city not found error:
-`if data["cod"] == "404":`<br>
-&emsp;&emsp;`print(f"Weather information not found for '{city}'. Please try again.")`<br>
+```
+if data["cod"] == "404":
+    print(f"Weather information not found for '{city}'. Please try again.")
+```
+<br>
 <img src="images/screenshot3.JPG" alt="screenshot3" width="700" />
 <br>
 
